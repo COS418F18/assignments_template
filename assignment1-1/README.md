@@ -1,4 +1,4 @@
-# COS418 Assignment 1 (Part a): Intro to Go
+# COS418 Assignment 1 (Part 1): Intro to Go
 
 <h2>Introduction</h2>
 <p>
@@ -40,7 +40,7 @@
   To test the correctness of your code, run the following:
 </p>
 <pre>
-  $ cd assignment1-a
+  $ cd assignment1-1
   $ go test
 </pre>
 <p>
@@ -49,19 +49,19 @@
 <pre>
   $ go test
   PASS
-  ok      /path/to/assignment1-a   0.009s
+  ok      /path/to/assignment1-1   0.009s
 </pre>
 
 
 
 
 ### Submitting Assignment
-<p> Now you need to submit your assignment 0. Commit your change and push it to the remote repository by doing the following: 
+<p> Now you need to submit your assignment. Commit your change and push it to the remote repository by doing the following: 
 
 ```bash
 $ git commit -am "[you fill me in]"
-$ git tag -a -m "i finished assignment 0" a1a-handin
+$ git tag -a -m "i finished assignment 1-1" a11-handin
 $ git push origin master
-$ git push origin a1a-handin
+$ git push origin a11-handin
 ```
 

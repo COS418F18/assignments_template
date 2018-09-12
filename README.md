@@ -55,7 +55,7 @@ $
 Now, you have everything you need for doing all assignments, i.e., instructions and starter code. Git allows you to keep track of the changes you make to the code. For example, if you want to checkpoint your progress, you can <emph>commit</emph> your changes by running:
 
 ```bash
-$ git commit -am 'partial solution to assignment 1-a'
+$ git commit -am 'partial solution to assignment 1-1'
 $ 
 ```
 
@@ -76,6 +76,6 @@ $
 
 As you complete parts of the assignments (and begin future assignments) we'll ask you push tags. You should also be committing and pushing your progress regularly.
 
-### Steping into Assignment 1-a
+### Steping into Assignment 1-1
 
-Now it's time to go to assignment 1-a folder to begin your adventure!
+Now it's time to go to assignment 1-1 folder to begin your adventure!
