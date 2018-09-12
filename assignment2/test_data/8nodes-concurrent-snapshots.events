@@ -1,0 +1,17 @@
+send N1 N2 1
+tick
+send N2 N3 2
+snapshot N3
+tick
+send N3 N4 3
+snapshot N1
+tick
+send N4 N5 4
+snapshot N8
+tick 10
+send N5 N6 2
+send N5 N8 1
+snapshot N6
+snapshot N2
+tick 10
+send N6 N7 1

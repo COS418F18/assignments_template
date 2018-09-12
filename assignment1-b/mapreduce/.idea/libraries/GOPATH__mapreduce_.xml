@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;mapreduce&gt;">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../../../dev/go-workspace/src/github.com" />
+      <root url="file://$PROJECT_DIR$/../../../../../dev/go-workspace/src/golang.org" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../../../../dev/go-workspace/src/github.com" />
+      <root url="file://$PROJECT_DIR$/../../../../../dev/go-workspace/src/golang.org" />
+    </SOURCES>
+    <excluded>
+      <root url="file://$PROJECT_DIR$" />
+    </excluded>
+  </library>
+</component>

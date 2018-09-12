@@ -1,0 +1,120 @@
+send N1 N2 10
+send N2 N3 10
+send N3 N4 10
+send N4 N5 10
+send N5 N6 10
+send N6 N7 10
+send N7 N8 10
+send N8 N9 10
+send N9 N10 10
+send N10 N1 10
+snapshot N1
+tick
+send N1 N2 10
+send N2 N3 10
+send N3 N4 10
+send N4 N5 10
+send N5 N6 10
+send N6 N7 10
+send N7 N8 10
+send N8 N9 10
+send N9 N10 10
+send N10 N1 10
+snapshot N2
+tick
+send N1 N2 10
+send N2 N3 10
+send N3 N4 10
+send N4 N5 10
+send N5 N6 10
+send N6 N7 10
+send N7 N8 10
+send N8 N9 10
+send N9 N10 10
+send N10 N1 10
+snapshot N3
+tick
+send N1 N2 10
+send N2 N3 10
+send N3 N4 10
+send N4 N5 10
+send N5 N6 10
+send N6 N7 10
+send N7 N8 10
+send N8 N9 10
+send N9 N10 10
+send N10 N1 10
+snapshot N4
+tick
+send N1 N2 10
+send N2 N3 10
+send N3 N4 10
+send N4 N5 10
+send N5 N6 10
+send N6 N7 10
+send N7 N8 10
+send N8 N9 10
+send N9 N10 10
+send N10 N1 10
+snapshot N5
+tick
+send N1 N2 10
+send N2 N3 10
+send N3 N4 10
+send N4 N5 10
+send N5 N6 10
+send N6 N7 10
+send N7 N8 10
+send N8 N9 10
+send N9 N10 10
+send N10 N1 10
+snapshot N6
+tick
+send N1 N2 10
+send N2 N3 10
+send N3 N4 10
+send N4 N5 10
+send N5 N6 10
+send N6 N7 10
+send N7 N8 10
+send N8 N9 10
+send N9 N10 10
+send N10 N1 10
+snapshot N7
+tick
+send N1 N2 10
+send N2 N3 10
+send N3 N4 10
+send N4 N5 10
+send N5 N6 10
+send N6 N7 10
+send N7 N8 10
+send N8 N9 10
+send N9 N10 10
+send N10 N1 10
+snapshot N8
+tick
+send N1 N2 10
+send N2 N3 10
+send N3 N4 10
+send N4 N5 10
+send N5 N6 10
+send N6 N7 10
+send N7 N8 10
+send N8 N9 10
+send N9 N10 10
+send N10 N1 10
+snapshot N9
+tick
+send N1 N2 10
+send N2 N3 10
+send N3 N4 10
+send N4 N5 10
+send N5 N6 10
+send N6 N7 10
+send N7 N8 10
+send N8 N9 10
+send N9 N10 10
+send N10 N1 10
+snapshot N10
+tick
