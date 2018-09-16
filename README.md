@@ -48,7 +48,7 @@ In particular, tutorials 1 and 5 will be most useful for this course.</p>
 $ git clone https://github.com/COS418F18/assignments-myusername.git 418
 $ cd 418
 $ ls
-src
+assignment1-1  assignment1-2  assignment1-3  assignment2  assignment3  assignment4  assignment5  README.md  setup.md
 $ 
 ```
 

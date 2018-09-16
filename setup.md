@@ -3,8 +3,8 @@
 ### Go Installation
 
 You will need a working Go environment for the assignments. 
-Your version should be at least Go 1.6, which is the version that Grading scripts will use.
-The latest version as of the Fall 2018 semester is Go 1.11. Things work in 1.6 should also work in 1.11. Learn more about semantic of versioning [here](https://semver.org/).
+Your version should be at least Go 1.9, which is the version that Grading scripts will use.
+The latest version as of the Fall 2018 semester is Go 1.11. Things work in 1.9 should also work in 1.11. Learn more about semantic of versioning [here](https://semver.org/).
 
 <h3>Cycles (Pre-installed)</h3>
 <p>
@@ -27,7 +27,7 @@ courselab:~$ which go
 courselab:~$ go version
 go version go1.8.3 linux/amd64</pre>
 
-We only support the below methods for using Go. For help with courselab servers see <a href="https://csguide.cs.princeton.edu/resources/courselab">here</a>.
+We only support the above methods for using Go. For help with courselab servers see <a href="https://csguide.cs.princeton.edu/resources/courselab">here</a>.
 </p>
 
 <h3>Manual for Various OSes</h3>
