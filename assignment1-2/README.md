@@ -42,6 +42,7 @@
   simplifies or eliminates various corner cases of a distributed system.
 </p>
 
+
 <h3>Getting familiar with the source</h3>
 <p>
   The mapreduce package (located at <tt>$GOPATH/src/mapreduce</tt>) provides a simple Map/Reduce library with
@@ -142,13 +143,15 @@ f[nIn-1]-0, ..., f[nIn-1]-[nReduce-1].
   implementation. These tests are implemented in the file
   <tt>test_test.go</tt>. To run the tests for the sequential
   implementation that you have now fixed, follow this (or a non-<tt>bash</tt> equivalent) sequence of shell commands,
-  starting from the cos418 top-level directory (that is, the top level of the hierarchy contained in
-  the tarball you downloaded above):
+  starting from the <tt>418/assignment1-2</tt> directory:
 
 <pre>
-# Go needs $GOPATH to be set to the directory containing "src" after you opened the tarball
+# Go needs $GOPATH to be set to the directory containing "src"
+$ cd 418/assignment1-2
+$ ls
+README.md src
 $ export GOPATH="$PWD"
-$ cd "$GOPATH/src/mapreduce"
+$ cd src
 $ go test -run Sequential mapreduce/...
 ok  mapreduce 4.515s
 </pre>
