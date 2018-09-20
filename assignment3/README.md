@@ -61,8 +61,8 @@
   Before you have implemented anything, your raft tests will fail, but this behavior is a sign that you
   have everything properly configured and are ready to begin:
 <pre>
-$ cd cos418 # or wherever you unpacked your tarball
-$ export GOPATH="$PWD"
+# Go needs $GOPATH to be set to the directory containing "src"
+$ cd 418/assignment3
 $ cd "$GOPATH/src/raft"
 $ go test -run Election
 Test: initial election ...
