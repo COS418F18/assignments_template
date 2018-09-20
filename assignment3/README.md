@@ -63,6 +63,7 @@
 <pre>
 # Go needs $GOPATH to be set to the directory containing "src"
 $ cd 418/assignment3
+$ export GOPATH="$PWD"
 $ cd "$GOPATH/src/raft"
 $ go test -run Election
 Test: initial election ...

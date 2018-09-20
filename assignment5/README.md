@@ -43,10 +43,10 @@
 <p>
   To get up and running, execute the following commands, as in the previous assignments, and change into the <tt>src/kvraft</tt> directory:
   <pre>
-  $ cd cos418 # directory containing the tarball
-  $ tar -vzxf hw5.tgz
-  $ rm hw5.tgz
+  # Go needs $GOPATH to be set to the directory containing "src"
+  $ cd 418/assignment5
   $ export GOPATH="$PWD"
+  $ cd "$GOPATH/src/kvraft"
   </pre>
   To apply the binary, follow these instructions:
   <pre>
