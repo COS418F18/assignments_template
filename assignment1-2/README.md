@@ -303,8 +303,8 @@ You should verify that you are able to see your final commit and your
 a12-handin tag on the Github page in your repository for this
 assignment.
 
-You will receive full credit if your software passes the
-<tt>test_test.go</tt> tests when we run your software on our machines.
+You will receive full credit if your software passes the Sequential tests in <tt>test_test.go</tt> and <tt>test-wc.sh</tt>.
+
 We will use the timestamp of your **last** tag for the
 purpose of calculating late days, and we will only grade that version of the
 code. (We'll also know if you backdate the tag, don't do that.)
