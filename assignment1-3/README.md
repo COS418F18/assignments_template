@@ -31,6 +31,18 @@
   fit into the overall architecture of the system.
 </p>
 
+To get start, copy all source files from `assignment1-2/src` to `assignment1-3/src`
+
+<pre>
+# start from your 418 GitHub repo
+$ cd 418
+$ ls
+README.md     assignment1-1 assignment1-2 assignment1-3 assignment2   assignment3   assignment4   assignment5   setup.md
+$ cp -r assignment1-2/src/* assignment1-3/src/
+$ ls assignment1-3/src
+main      mapreduce
+</pre>
+
 <h2>Part I: Distributing MapReduce tasks</h2>
 
 <p>
