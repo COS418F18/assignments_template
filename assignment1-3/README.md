@@ -257,6 +257,12 @@ yours: 15 pg-being_ernest.txt,pg-dorian_gray.txt,pg-dracula.txt,pg-emma.txt,pg-f
 (this sample result is also found in main/mr-challenge.txt)
 </p>
 
+<p>
+  To make testing easy for you, from the <tt>$GOPATH/src/main</tt> directory, run:
+  <pre>$ sh ./test-ii.sh</pre>
+  and it will report if your solution is correct or not.
+</p>
+
 <h2>Resources and Advice</h2>
 <ul class="hints">
   <li>
