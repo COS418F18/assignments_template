@@ -38,7 +38,7 @@ func topWords(path string, numWords int, charThreshold int) []WordCount {
 	}
 	var arrWordCount []WordCount
 	for k, v := range wordCount {
-		if len(k) > charThreshold {
+		if len(k) >= charThreshold {
 			arrWordCount = append(arrWordCount, WordCount{k, v})
 		}
 	}
