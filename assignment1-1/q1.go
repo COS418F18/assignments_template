@@ -20,28 +20,30 @@ import (
 // are removed, e.g. "don't" becomes "dont".
 // You should use `checkError` to handle potential errors.
 func topWords(path string, numWords int, charThreshold int) []WordCount {
-	// TODO: implement me
 	// HINT: You may find the `strings.Fields` and `strings.ToLower` functions helpful
 	// HINT: To keep only alphanumeric characters, use the regex "[^0-9a-zA-Z]+"
 	content, err := os.ReadFile(path)
 	if err != nil {
 		fmt.Println(err)
 	}
+	// Separate content into words
 	words := strings.Fields(string(content))
 	wordCount := make(map[string]int)
 	digitPattern := regexp.MustCompile("[^0-9a-zA-Z]+")
-
+	// for each word, clean and add in map
 	for _, word := range words {
 		word = strings.ToLower(word)
 		result := digitPattern.ReplaceAllString(word, "")
 		wordCount[result]++
 	}
+	// Add each word and frequency in a struct word
 	var arrWordCount []WordCount
 	for k, v := range wordCount {
 		if len(k) >= charThreshold {
 			arrWordCount = append(arrWordCount, WordCount{k, v})
 		}
 	}
+	// Sort the slice of WordCount struct objects
 	sortWordCounts(arrWordCount)
 	return arrWordCount[:numWords]
 }
