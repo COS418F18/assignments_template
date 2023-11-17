@@ -1,7 +1,6 @@
 package cos418_hw1_1
 
 import (
-	"fmt"
 	"os"
 	"strconv"
 	"strings"
@@ -38,20 +37,14 @@ func sum(num int, fileName string) int {
 	ans := 0
 	for i := 0; i < num; i++ {
 		res := make(chan int, 1)
-		// Push each number to channel
 		from := i * subArraySize
 		to := (i + 1) * subArraySize
-
-		fmt.Printf("length %v\n", len(numbers))
-		fmt.Printf("from-to : %v-%v\n", from, to)
-
 		numsChan := make(chan int, subArraySize)
 		for _, ele := range numbers[from:to] {
 			numsChan <- ele
 		}
 		close(numsChan)
 		go sumWorker(numsChan, res)
-		// Get channel
 		ans += <-res
 	}
 	// to get rid of the warning
